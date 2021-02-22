@@ -15,7 +15,7 @@ let package = Package(
             targets: ["SP4"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Alamofire/Alamofire.git", .exact("5.0.0")),
+        .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.2.0")),
         .package(url: "https://github.com/realm/realm-cocoa.git", .upToNextMajor(from: "5.4.0")),
     ],
     targets: [
